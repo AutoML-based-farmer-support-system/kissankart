@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Farmer-Shop | A ecommerce website" />
+    <title>FarmerKart</title>
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/style.css">
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+
+  var $googleDiv = $("#google_translate_element .skiptranslate");
+  var $googleDivChild = $("#google_translate_element .skiptranslate div");
+  $googleDivChild.next().remove();
+
+  $googleDiv.contents().filter(function(){
+  	return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+  }).remove();
+  
+      }
+    </script>
+</head>
+
+<body id="page-top">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="font-light text-base text-gray-800 bg-white flex flex-col min-h-screen" id="root"></div>
+ 
+</body>
+
+</html>
